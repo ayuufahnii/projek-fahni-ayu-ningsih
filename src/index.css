@@ -37,7 +37,7 @@
     --radius: 0.75rem;
 
     /* Custom tokens */
-    --gradient-primary: linear-gradient(135deg, hsl(175 80% 40%), hsl(200 80% 50%));
+    --gradient-primary: linear-gradient(135deg, hsl(336, 80%, 40%), hsl(200 80% 50%));
     --gradient-hero: linear-gradient(180deg, hsl(210 20% 98%) 0%, hsl(210 25% 94%) 100%);
     --shadow-glow: 0 0 40px hsl(175 80% 40% / 0.3);
     --shadow-card: 0 4px 20px hsl(220 20% 10% / 0.08);
@@ -117,8 +117,9 @@
 
 @layer components {
   .text-gradient {
-    @apply bg-clip-text text-transparent;
-    background-image: var(--gradient-primary);
+  background: linear-gradient(90deg, #ff6ec7, #ff2d95);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
   }
 
   .bg-gradient-hero {
