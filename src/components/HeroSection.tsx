@@ -40,7 +40,7 @@ export default function HeroSection() {
           >
             Fullstack Developer
             <br />
-            <span className="text-gradient">&amp; Content Creator</span>
+            <span className="text-gradient">&amp; laptop</span>
           </motion.h1>
 
           <motion.p

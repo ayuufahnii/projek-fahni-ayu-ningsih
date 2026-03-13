@@ -63,7 +63,7 @@ export default function AboutSection() {
               aplikasi web yang powerful dan user-friendly.
             </p>
             <p className="text-muted-foreground leading-relaxed">
-              Selain coding, saya juga aktif sebagai Content Creator, berbagi pengetahuan 
+              Selain coding, saya juga aktif sebagai fahni, berbagi pengetahuan 
               tentang pemrograman dan teknologi melalui berbagai platform. Saya percaya bahwa 
               berbagi ilmu adalah cara terbaik untuk terus belajar dan berkembang.
             </p>
