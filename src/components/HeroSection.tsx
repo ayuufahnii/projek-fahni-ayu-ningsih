@@ -49,8 +49,8 @@ export default function HeroSection() {
             transition={{ duration: 0.8, delay: 0.5 }}
             className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto"
           >
-            Saya membangun aplikasi web yang indah dan fungsional, 
-            serta membagikan pengetahuan melalui konten yang inspiratif.
+            Saya seorang developer yang sedang belajar membangun  
+            website yang modern, responsif, dan fungsional.
           </motion.p>
 
           <motion.div
