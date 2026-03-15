@@ -1,4 +1,4 @@
-```jsx
+jsx
 import { motion } from 'framer-motion';
 import { ArrowDown, Github, Linkedin, Youtube, Instagram } from 'lucide-react';
 import { Button } from '@/components/ui/button';
@@ -152,4 +152,3 @@ export default function HeroSection() {
     </section>
   );
 }
-```
