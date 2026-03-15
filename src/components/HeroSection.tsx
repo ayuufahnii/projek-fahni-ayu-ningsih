@@ -12,28 +12,27 @@ export default function HeroSection() {
   };
 
   return (
-    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero py-20">
+    <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gradient-hero">
       <ThreeScene />
       
       <div className="container mx-auto px-4 relative z-10">
-        {/* Container Utama: Flex-row untuk Laptop, Flex-col untuk HP */}
-        <div className="flex flex-col lg:flex-row items-center justify-center gap-12 lg:gap-20">
+        {/* Container Grid: Foto di kiri, Teks di kanan pada layar besar */}
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center max-w-6xl mx-auto">
           
-          {/* SISI KIRI: AREA FOTO */}
-          <motion.div 
-            className="w-full lg:w-1/3 flex justify-center lg:justify-end"
+          {/* BAGIAN FOTO (KIRI) */}
+          <motion.div
             initial={{ opacity: 0, x: -50 }}
             animate={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
+            transition={{ duration: 0.8, delay: 0.2 }}
+            className="flex justify-center lg:justify-end"
           >
             <div className="relative group">
-              {/* Bingkai Dekoratif (Glow Effect) */}
-              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-purple-600 rounded-2xl blur opacity-25 group-hover:opacity-50 transition duration-1000"></div>
+              {/* Efek Bingkai Bercahaya/Glow */}
+              <div className="absolute -inset-1 bg-gradient-to-r from-primary to-purple-600 rounded-full blur opacity-25 group-hover:opacity-50 transition duration-1000 group-hover:duration-200"></div>
               
-              {/* Tempat Foto */}
-              <div className="relative w-64 h-80 md:w-80 md:h-[450px] overflow-hidden rounded-2xl glass border-2 border-white/20">
+              <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 glass">
                 <img 
-                  src="/foto-fahni.jpg" // GANTI DENGAN NAMA FILE FOTOMU DI FOLDER PUBLIC
+                  src="/path-to-your-photo.jpg" // Ganti dengan path foto kamu
                   alt="Fahni Ayu Ningsih"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
@@ -41,8 +40,8 @@ export default function HeroSection() {
             </div>
           </motion.div>
 
-          {/* SISI KANAN: TEKS & KONTEN */}
-          <div className="w-full lg:w-2/3 text-center lg:text-left">
+          {/* BAGIAN TEKS (KANAN) */}
+          <div className="text-center lg:text-left">
             <motion.div
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
@@ -62,7 +61,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.3 }}
-              className="font-display text-4xl md:text-6xl font-bold mb-6"
+              className="font-display text-4xl md:text-6xl lg:text-7xl font-bold mb-6"
             >
               Hello
               <br />
@@ -73,7 +72,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.5 }}
-              className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl lg:mx-0 mx-auto"
+              className="text-lg md:text-xl text-muted-foreground mb-8 max-w-2xl mx-auto lg:mx-0"
             >
               Saya seorang developer yang sedang belajar membangun  
               website yang modern, responsif, dan fungsional.
@@ -84,7 +83,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8, delay: 0.7 }}
-              className="flex flex-wrap items-center justify-center lg:justify-start gap-4 mb-12"
+              className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4 mb-12"
             >
               <Button 
                 size="lg" 
@@ -109,7 +108,7 @@ export default function HeroSection() {
               </Button>
             </motion.div>
 
-            {/* Social Media */}
+            {/* Social Media Icons */}
             <motion.div
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
@@ -138,7 +137,7 @@ export default function HeroSection() {
         </div>
       </div>
 
-      {/* Tombol Scroll Down */}
+      {/* Scroll Down Button */}
       <motion.button
         onClick={scrollToAbout}
         className="absolute bottom-8 left-1/2 -translate-x-1/2 p-3 rounded-full glass animate-float cursor-pointer"
