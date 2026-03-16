@@ -32,7 +32,7 @@ export default function HeroSection() {
               
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white/10 glass">
                 <img 
-                  src="/public/foto akun.jpeg" // Ganti dengan path foto kamu
+                  src="/public/foto akun.jpeg/" // Ganti dengan path foto kamu
                   alt="Fahni Ayu Ningsih"
                   className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                 />
