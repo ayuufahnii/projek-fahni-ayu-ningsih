@@ -39,7 +39,7 @@
     /* Custom tokens */
     --gradient-primary: linear-gradient(135deg, hsla(324, 94%, 50%, 0.756), hsla(321, 96%, 50%, 0.977));
     --gradient-hero: linear-gradient(180deg, hsl(210 20% 98%) 0%, hsl(210 25% 94%) 100%);
-    --shadow-glow: 0 0 40px hsl(175 80% 40% / 0.3);
+    --shadow-glow: 0 0 40px hsl(313, 100%, 71%);
     --shadow-card: 0 4px 20px hsl(220 20% 10% / 0.08);
     --shadow-card-hover: 0 8px 30px hsl(220 20% 10% / 0.12);
     --navbg: linear-gradient(180deg, hsl(314, 100%, 80%) 0%, hsl(0, 0%, 100%) 100%);
@@ -123,6 +123,7 @@
 }
   .text-gradient {
   background: linear-gradient(90deg, #ff6ec7, #ff2d95);
+  background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
   }
