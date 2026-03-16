@@ -21,7 +21,7 @@ export default function AboutSection() {
         >
           <span className="text-primary font-medium mb-2 block">About Fahni</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            kenalan lebih dekat yuk!
+            Kenalan Lebih Dekat Yuk!
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
