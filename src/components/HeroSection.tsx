@@ -65,7 +65,7 @@ export default function HeroSection() {
             >
               Hello
               <br />
-              <span className="text-gradient">I'm Fahni Ayu Ningsih</span>
+              <span className="text-gradient">I'am Fahni Ayu Ningsih</span>
             </motion.h1>
 
             <motion.p
