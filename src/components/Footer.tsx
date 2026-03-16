@@ -21,9 +21,9 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex items-center gap-2 text-muted-foreground"
           >
-            <span>© {currentYear} Made with</span>
+            <span>{currentYear} Handcrafted </span>
             <Heart className="h-4 w-4 text-destructive fill-destructive" />
-            <span>by Developer</span>
+            <span>by Fahni Ayu Ningsih </span>
           </motion.div>
 
           <motion.div
