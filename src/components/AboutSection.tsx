@@ -17,7 +17,10 @@ export default function AboutSection() {
       title: "Misi Utama Saya",
       content: "Membangun solusi digital yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman pengguna yang luar biasa melalui desain yang bersih dan performa yang optimal."
     },
-    
+    {
+      title: "Teknologi yang Saya Pelajari",
+      content: "Fokus utama saya saat ini adalah ekosistem React, termasuk Next.js, Tailwind CSS, dan Framer Motion untuk menciptakan antarmuka yang dinamis."
+    }
   ];
 
   return (
