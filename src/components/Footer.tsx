@@ -6,9 +6,8 @@ export default function Footer() {
 
   const socialLinks = [
     { icon: Github, href: 'https://github.com/ayuufahnii/projek-fahni-ayu-ningsih.git', label: 'GitHub' },
-    { icon: Linkedin, href: '#', label: 'LinkedIn' },
-    { icon: Youtube, href: '#', label: 'YouTube' },
-    { icon: Instagram, href: '#', label: 'Instagram' },
+    { icon: Youtube, href: 'https://www.youtube.com/@fahniayu', label: 'YouTube' },
+    { icon: Instagram, href: 'https://www.instagram.com/fahniayu_?igsh=YXE4enFuc29rYjlw', label: 'Instagram' },
   ];
 
   return (
@@ -21,7 +20,7 @@ export default function Footer() {
             viewport={{ once: true }}
             className="flex items-center gap-2 text-muted-foreground"
           >
-            <span>{currentYear} Handcrafted </span>
+            <span>{currentYear} Handcrafted</span>
             <Heart className="h-4 w-4 text-destructive fill-destructive" />
             <span>by Fahni Ayu Ningsih </span>
           </motion.div>

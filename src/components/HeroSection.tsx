@@ -117,6 +117,9 @@ export default function HeroSection() {
             >
               {[
                 { icon: Github, href: 'https://github.com/ayuufahnii/projek-fahni-ayu-ningsih.git', label: 'GitHub' },
+                { icon: Youtube, href: 'https://www.youtube.com/@fahniayu', label: 'YouTube' },
+                { icon: Instagram, href: 'https://www.instagram.com/fahniayu_?igsh=YXE4enFuc29rYjlw', label: 'Instagram' },
+
                 
               ].map((social) => (
                 <motion.a
