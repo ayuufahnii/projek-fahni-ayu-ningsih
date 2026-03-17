@@ -6,8 +6,8 @@ export default function AboutSection() {
   const [activeAccordion, setActiveAccordion] = useState(null);
 
   const stats = [
-    { icon: Code2, value: '50+', label: 'Projects Selesai' },
-    { icon: Video, value: '100+', label: 'Video Konten' },
+    { icon: Code2, value: '1+', label: 'Project Completed' },
+    { icon: Video, value: '1+', label: 'Creative Video Works' },
   ];
 
   const accordionData = [
@@ -67,8 +67,8 @@ export default function AboutSection() {
                 whileHover={{ scale: 1.1 }}
                 className="absolute -bottom-6 -right-6 p-5 glass rounded-xl shadow-2xl z-20 border border-white/20"
               >
-                <p className="font-display font-bold text-2xl text-primary">5+ Tahun</p>
-                <p className="text-sm text-muted-foreground font-medium">Pengalaman</p>
+                <p className="font-display font-bold text-2xl text-primary">3+ Bulan</p>
+                <p className="text-sm text-muted-foreground font-medium">of learning</p>
               </motion.div>
               
               {/* Decorative Background Element */}
