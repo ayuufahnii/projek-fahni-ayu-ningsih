@@ -110,7 +110,7 @@ export default function AboutSection() {
                         <div className="p-4 pt-0 text-sm text-muted-foreground leading-relaxed border-t border-white/5">
                           {item.content}
 
-                          
+
                           {item.content2}
                         </div>
                       </motion.div>
