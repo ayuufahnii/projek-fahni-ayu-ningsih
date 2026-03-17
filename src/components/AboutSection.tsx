@@ -16,12 +16,12 @@ export default function AboutSection() {
     {
       title: "Aspiring Web Developer",
       content: "Saya adalah seorang pelajar yang memiliki minat besar di bidang web development. Saya senang belajar membuat website yang menarik, responsif, dan mudah digunakan.",
-      content2: "Saat ini saya sedang mengembangkan kemampuan coding saya melalui berbagai proyek kecil untuk meningkatkan skill coding saya.",
+      content2: "Saat ini saya sedang mengembangkan kemampuan coding saya melalui berbagai proyek kecil untuk meningkatkan skill coding saya."
     },
     {
       title: "Creative Content Creator",
       content: "Sebagai pengembang muda yang ambisius, saya sedang antusias mengeksplorasi dunia pengembangan web, saya percaya bahwa perjalanan didunia coding adalah proses belajar yang dinamis.",
-      content2: "Fokus utama saya adalah membangun website yang fungsional, dan menarik. Bagi saya, setiap baris kode yang saya tulis bukan sekedar tugas, melainkan keesempatan berharga untuk mempelajari hal baru dan menciptakan solusi digital yang bermanfaat.",
+      content2: "Fokus utama saya adalah membangun website yang fungsional, dan menarik. Bagi saya, setiap baris kode yang saya tulis bukan sekedar tugas, melainkan keesempatan berharga untuk mempelajari hal baru dan menciptakan solusi digital yang bermanfaat."
     }
   ];
 
