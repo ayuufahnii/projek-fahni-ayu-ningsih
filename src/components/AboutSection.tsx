@@ -68,7 +68,7 @@ export default function AboutSection() {
                 className="absolute -bottom-6 -right-6 p-5 glass rounded-xl shadow-2xl z-20 border border-white/20"
               >
                 <p className="font-display font-bold text-2xl text-primary">3+ Bulan</p>
-                <p className="text-sm text-muted-foreground font-medium">of learning</p>
+                <p className="text-sm text-muted-foreground font-medium">Of Learning</p>
               </motion.div>
               
               {/* Decorative Background Element */}
