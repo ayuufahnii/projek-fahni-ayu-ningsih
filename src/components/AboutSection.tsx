@@ -110,6 +110,8 @@ export default function AboutSection() {
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                       >
                         <div className="p-4 pt-0 text-sm text-muted-foreground leading-relaxed border-t border-white/5">
+                          {item.content}
+                          {item.content2}
                           {item.content3}
                         </div>
                       </motion.div>
