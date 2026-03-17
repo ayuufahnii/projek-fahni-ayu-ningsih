@@ -14,12 +14,14 @@ export default function AboutSection() {
 
   const accordionData = [
     {
-      title: "Misi Utama Saya",
-      content: "Membangun solusi digital yang tidak hanya berfungsi dengan baik, tetapi juga memberikan pengalaman pengguna yang luar biasa melalui desain yang bersih dan performa yang optimal."
+      title: "Aspiring Web Developer",
+      content: "Saya adalah seorang pelajar yang memiliki minat besar di bidang web development. Saya senang belajar membuat website yang menarik, responsif, dan mudah digunakan.",
+      content2: "Saat ini saya sedang mengembangkan kemampuan coding saya melalui berbagai proyek kecil untuk meningkatkan skill coding saya.",
     },
     {
-      title: "Teknologi yang Saya Pelajari",
-      content: "Fokus utama saya saat ini adalah ekosistem React, termasuk Next.js, Tailwind CSS, dan Framer Motion untuk menciptakan antarmuka yang dinamis."
+      title: "Creative Content Creator",
+      content: "Sebagai pengembang muda yang ambisius, saya sedang antusias mengeksplorasi dunia pengembangan web, saya percaya bahwa perjalanan didunia coding adalah proses belajar yang dinamis.",
+      content2: "Fokus utama saya adalah membangun website yang fungsional, dan menarik. Bagi saya, setiap baris kode yang saya tulis bukan sekedar tugas, melainkan keesempatan berharga untuk mempelajari hal baru dan menciptakan solusi digital yang bermanfaat.",
     }
   ];
 
@@ -106,7 +108,7 @@ export default function AboutSection() {
                         transition={{ duration: 0.3, ease: "easeInOut" }}
                       >
                         <div className="p-4 pt-0 text-sm text-muted-foreground leading-relaxed border-t border-white/5">
-                          {item.content}
+                          {item.content2}
                         </div>
                       </motion.div>
                     )}
