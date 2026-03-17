@@ -84,16 +84,6 @@ export default function AboutSection() {
             transition={{ duration: 0.6 }}
             className="space-y-6"
           >
-            <div className="space-y-4">
-              <h3 className="font-display text-2xl md:text-3xl font-bold">
-                Passionate Developer & <span className="text-primary">Creator</span>
-              </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Saya adalah seorang pelajar yang memiliki minat besar dalam dunia teknologi. 
-                Senang mengeksplorasi pembuatan website yang **menarik, responsif, dan mudah digunakan**.
-              </p>
-            </div>
-
             {/* Accordion Component */}
             <div className="space-y-3 py-4">
               {accordionData.map((item, i) => (
