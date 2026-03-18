@@ -7,7 +7,7 @@ export default function AboutSection() {
 
   const stats = [
     { icon: Code2, value: '1+', label: 'Project Completed' },
-    { icon: Video, value: '100+', label: 'Video Konten' },
+    { icon: Video, value: '1+', label: 'Video Konten' },
   ];
 
   const accordionData = [
