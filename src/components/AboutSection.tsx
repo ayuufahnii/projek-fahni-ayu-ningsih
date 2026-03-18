@@ -1,18 +1,13 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Code2, Video, Coffee, Rocket, ChevronDown } from 'lucide-react';
-import catgif from "../assets/cat disney GIF.gif";
-import fotojpeg from "../assets/foto.jpeg";
-import lemonbot from "..assets/lemoonboot.jpg";
 
 export default function AboutSection() {
-  const images = [catgif, fotojpeg, lemonbot];
-  const [imageIndex, setImageIndex] = useState(0)
   const [activeAccordion, setActiveAccordion] = useState(null);
 
   const stats = [
     { icon: Code2, value: '1+', label: 'Project Completed' },
-    { icon: Video, value: '1+', label: 'Creative Video Works' },
+    { icon: Video, value: '100+', label: 'Video Konten' },
   ];
 
   const accordionData = [
@@ -57,14 +52,13 @@ export default function AboutSection() {
             <div className="relative group">
               <div className="aspect-square rounded-2xl overflow-hidden glass shadow-card relative z-10">
                 <div className="w-full h-full bg-gradient-to-br from-primary/20 via-transparent to-accent/20 flex items-center justify-center">
-                  <motion.img
-                    src={images[imageIndex]}
+                  <motion.span 
                     animate={{ y: [0, -10, 0] }}
                     transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                    className="w-full h-full object-cover"
+                    className="text-8xl"
                   >
-                  </motion.img
-                  >
+                    👨‍💻
+                  </motion.span>
                 </div>
               </div>
               
@@ -74,7 +68,7 @@ export default function AboutSection() {
                 className="absolute -bottom-6 -right-6 p-5 glass rounded-xl shadow-2xl z-20 border border-white/20"
               >
                 <p className="font-display font-bold text-2xl text-primary">3+ Bulan</p>
-                <p className="text-sm text-muted-foreground font-medium">Of Learning</p>
+                <p className="text-sm text-muted-foreground font-medium">of learning</p>
               </motion.div>
               
               {/* Decorative Background Element */}
