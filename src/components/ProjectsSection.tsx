@@ -103,9 +103,9 @@ export default function ProjectsSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-medium mb-2 block">Portfolio</span>
+          <span className="text-primary font-medium mb-2 block">My Portfolio</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Projects &amp; Karya
+            Selected Projects
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
