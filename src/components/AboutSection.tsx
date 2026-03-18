@@ -58,7 +58,7 @@ export default function AboutSection() {
               <div className="aspect-square rounded-2xl overflow-hidden glass shadow-card relative z-10">
                 <div className="w-full h-full bg-gradient-to-br from-primary/20 via-transparent to-accent/20 flex items-center justify-center">
                   <motion.img
-                  src={images[imageIndex]}
+                    src={images[imageIndex]}
                     animate={{ y: [0, -10, 0] }}
                     transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
                     className="w-full h-full object-cover"

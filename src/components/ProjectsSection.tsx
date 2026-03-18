@@ -6,6 +6,7 @@ import { ExternalLink, Github, Play, ChevronLeft, ChevronRight } from 'lucide-re
 import { Button } from '@/components/ui/button';
 import useEmblaCarousel from 'embla-carousel-react';
 import Autoplay from 'embla-carousel-autoplay';
+
 import catgif from "../assets/cat disney GIF.gif";
 import fotojpeg from "../assets/foto.jpeg";
 import lemonbot from "../assets/lemoonboot.jpg";
