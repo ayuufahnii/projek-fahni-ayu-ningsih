@@ -1,8 +1,13 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Code2, Video, Coffee, Rocket, ChevronDown } from 'lucide-react';
+import catgif from "../assets/cat disney GIF.gif";
+import fotojpeg from "../assets/foto.jpeg";
+import lemonbot from "..assets/lemoonboot.jpg";
 
 export default function AboutSection() {
+  const images = [catgif, fotojpeg, lemonbot];
+  const [imageIndex, setImageIndex] = useState(0)
   const [activeAccordion, setActiveAccordion] = useState(null);
 
   const stats = [
@@ -52,13 +57,14 @@ export default function AboutSection() {
             <div className="relative group">
               <div className="aspect-square rounded-2xl overflow-hidden glass shadow-card relative z-10">
                 <div className="w-full h-full bg-gradient-to-br from-primary/20 via-transparent to-accent/20 flex items-center justify-center">
-                  <motion.span 
+                  <motion.img
+                  src={images[imageIndex]}
                     animate={{ y: [0, -10, 0] }}
                     transition={{ duration: 3, repeat: Infinity, ease: "easeInOut" }}
-                    className="text-8xl"
+                    className="w-full h-full object-cover"
                   >
-                    👨‍💻
-                  </motion.span>
+                  </motion.img
+                  >
                 </div>
               </div>
               
