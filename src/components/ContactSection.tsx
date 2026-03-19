@@ -86,7 +86,7 @@ export default function ContactSection() {
       });
 
       setFormData({ name: '', email: '', subject: '', message: '' });
-    } catch (error: any) {
+    } catch (error) {
       console.error('Error sending email:', error);
       toast({
         title: 'Gagal Mengirim',
@@ -108,9 +108,9 @@ export default function ContactSection() {
           transition={{ duration: 0.6 }}
           className="text-center mb-16"
         >
-          <span className="text-primary font-medium mb-2 block">Kontak</span>
+          <span className="text-primary font-medium mb-2 block">Get In Touch</span>
           <h2 className="font-display text-3xl md:text-5xl font-bold mb-4">
-            Hubungi Saya
+            Say Hello!
           </h2>
           <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
         </motion.div>
