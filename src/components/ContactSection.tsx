@@ -138,7 +138,7 @@ export default function ContactSection() {
                 <motion.a
                   key={info.label}
                   href={info.href}
-                  target="_blank"           
+                  target={info.href.startsWith('mailto:') ? '_self' : '_blank'}        
                   rel="noopener noreferrer" 
                   initial={{ opacity: 0, x: -20 }}
                   whileInView={{ opacity: 1, x: 0 }}
