@@ -26,7 +26,7 @@ const contactInfo = [
     icon: Phone,
     label: 'Telepon',
     value: '+62 82273387513',
-    href: 'https:wa.me/6282273387513',
+    href: 'https://wa.me/6282273387513',
   },
   {
     icon: MapPin,
