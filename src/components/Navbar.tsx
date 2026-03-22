@@ -47,7 +47,6 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
   // 2. Fungsi Translate 1-Klik
   const toggleLanguage = () => {
     const googleCombo = document.querySelector('.goog-te-combo') as HTMLSelectElement;
-    
     if (googleCombo) {
       const targetLang = currentLang === 'id' ? 'en' : 'id';
       googleCombo.value = targetLang;
