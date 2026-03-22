@@ -47,14 +47,15 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <motion.span 
+              <motion.img 
                 className="inline-block px-4 py-2 rounded-full glass text-sm font-medium text-primary mb-6"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 }}
+                src="/foto.jpeg, lemoonboot.jpg, cat disney GIF.gif"
               >
                 👋 Selamat datang di portfolio saya
-              </motion.span>
+              </motion.img>
             </motion.div>
 
             <motion.h1
