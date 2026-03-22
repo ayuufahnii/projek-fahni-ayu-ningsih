@@ -192,8 +192,12 @@ export default function ContactSection() {
                     value={formData.email}
                     onChange={handleChange}
                     placeholder="email@example.com"
-                    className={errors.email ? 'border-destructive' : ''}
-                  />
+                      className={`w-full px-4 py-2 border rounded-lg outline-none transition-all ${
+                    errors.name 
+                    ? 'border-destructive focus:ring-destructive' 
+                    : 'border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200'
+                    }`}
+/>
                   {errors.email && <p className="text-xs text-destructive">{errors.email}</p>}
                 </div>
               </div>
@@ -206,8 +210,12 @@ export default function ContactSection() {
                   value={formData.subject}
                   onChange={handleChange}
                   placeholder="Subjek pesan"
-                  className={errors.subject ? 'border-destructive' : ''}
-                />
+                    className={`w-full px-4 py-2 border rounded-lg outline-none transition-all ${
+                  errors.name 
+                ? 'border-destructive focus:ring-destructive' 
+                : 'border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200'
+                }`}
+/>
                 {errors.subject && <p className="text-xs text-destructive">{errors.subject}</p>}
               </div>
 
@@ -220,8 +228,12 @@ export default function ContactSection() {
                   onChange={handleChange}
                   placeholder="Tuliskan pesan Anda..."
                   rows={5}
-                  className={errors.message ? 'border-destructive' : ''}
-                />
+                    className={`w-full px-4 py-2 border rounded-lg outline-none transition-all ${
+                  errors.name 
+                ? 'border-destructive focus:ring-destructive' 
+              : 'border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200'
+              }`}
+/>
                 {errors.message && <p className="text-xs text-destructive">{errors.message}</p>}
               </div>
 
