@@ -47,17 +47,16 @@ export default function HeroSection() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <motion.img 
+              <motion.div 
                 className="inline-block px-4 py-2 rounded-full glass text-sm font-medium text-primary mb-6"
                 initial={{ opacity: 0, scale: 0.8 }}
                 animate={{ opacity: 1, scale: 1 }}
                 transition={{ delay: 0.2 }}
-                
-              >
+>
                 👋 Selamat datang di portfolio saya
-              </motion.img>
+              </motion.div>
             </motion.div>
-
+              
             <motion.h1
               initial={{ opacity: 0, y: 30 }}
               animate={{ opacity: 1, y: 0 }}
