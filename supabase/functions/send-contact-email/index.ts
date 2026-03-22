@@ -33,7 +33,7 @@ const handler = async (req: Request): Promise<Response> => {
     // Send notification email to the portfolio owner
     const emailResponse = await resend.emails.send({
       from: "Portfolio Contact <onboarding@resend.dev>", // Use verified domain in production
-      to: ["hello@developer.com"], // Replace with your actual email
+      to: ["fahniiayuu@gmail.com"], // Replace with your actual email
       subject: `[Portfolio] ${subject}`,
       html: `
         <!DOCTYPE html>
