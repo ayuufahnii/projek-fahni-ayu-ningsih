@@ -27,7 +27,6 @@ export default function Navbar({ isDark, toggleTheme }: NavbarProps) {
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
-
   // 1. Logic Inisialisasi Google Translate
   useEffect(() => {
     const addScript = document.createElement('script');
