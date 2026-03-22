@@ -169,7 +169,7 @@ export default function ContactSection() {
               <div className="grid sm:grid-cols-2 gap-4">
                 <div className="space-y-2">
                   <label htmlFor="name" className="text-sm font-medium">Nama</label>
-                  <Input
+                  <input
                     id="name"
                     name="name"
                     value={formData.name}
@@ -181,7 +181,7 @@ export default function ContactSection() {
                 </div>
                 <div className="space-y-2">
                   <label htmlFor="email" className="text-sm font-medium">Email</label>
-                  <Input
+                  <input
                     id="email"
                     name="email"
                     type="email"
@@ -196,7 +196,7 @@ export default function ContactSection() {
 
               <div className="space-y-2">
                 <label htmlFor="subject" className="text-sm font-medium">Subjek</label>
-                <Input
+                <input
                   id="subject"
                   name="subject"
                   value={formData.subject}
