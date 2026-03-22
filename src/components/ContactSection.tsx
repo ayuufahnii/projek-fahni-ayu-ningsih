@@ -175,8 +175,12 @@ export default function ContactSection() {
                     value={formData.name}
                     onChange={handleChange}
                     placeholder="Nama Anda"
-                    className={errors.name ? 'border-destructive' : ''}
-                  />
+                      className={`w-full px-4 py-2 border rounded-lg outline-none transition-all ${
+                    errors.name 
+                    ? 'border-destructive focus:ring-destructive' 
+                    : 'border-gray-300 focus:border-pink-500 focus:ring-2 focus:ring-pink-200'
+                  }`}
+/>
                   {errors.name && <p className="text-xs text-destructive">{errors.name}</p>}
                 </div>
                 <div className="space-y-2">
